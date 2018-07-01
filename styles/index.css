@@ -7,7 +7,7 @@ html, body {
 #myChart {
 	height:100%;
 	width:70%;
-	min-height:150px;
+	max-height: 500px;
 }
 .zc-ref {
 	display:none;
