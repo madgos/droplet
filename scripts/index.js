@@ -1,7 +1,7 @@
 var myConfig = {
  	type: 'hbullet',
  	title:{
- 	  text: 'Call Center Daily Goals',
+ 	  text: 'CMT Training hours',
  	  fontColor: '#212121'
  	},
  	plot:{
@@ -19,7 +19,10 @@ var myConfig = {
  	},
  	labels:[
  	  {
- 	    text:'',
+ 	    text:'RBC',
+		fontColor: '#32CD32',
+		fontWeight: 'Bold',
+		fontSize: 18,
  	    height: 50,
  	    width: 50,
  	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar11.png',
@@ -27,7 +30,10 @@ var myConfig = {
  	    offsetX: -50
  	  },
  	  {
- 	    text:'',
+ 	    text:'PGO',
+		fontColor: '#32CD32',
+		fontWeight: 'Bold',
+		fontSize: 18,
  	    height: 50,
  	    width: 50,
  	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar22.png',
@@ -35,7 +41,10 @@ var myConfig = {
  	    offsetX: -50
  	  },
  	  {
- 	    text:'',
+ 	    text:'JAD',
+		fontColor: '#DC143C',
+		fontWeight: 'Bold',
+		fontSize: 18,
  	    height: 50,
  	    width: 50,
  	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar33.png',
@@ -43,17 +52,108 @@ var myConfig = {
  	    offsetX: -50
  	  },
  	  {
- 	    text:'',
+ 	    text:'JZR',
+		fontColor: '#FFD700',
+		fontWeight: 'Bold',
+		fontSize: 18,
  	    height: 50,
  	    width: 50,
  	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
  	    hook: 'scale:name=scale-x,index=3',
  	    offsetX: -50
+ 	  },
+ 	  {
+ 	    text:'JMZ',
+		fontColor: '#DC143C',
+		fontWeight: 'Bold',
+		fontSize: 18,
+ 	    height: 50,
+ 	    width: 50,
+ 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    hook: 'scale:name=scale-x,index=4',
+ 	    offsetX: -50
+ 	  },
+ 	  {
+ 	    text:'GAP',
+		fontColor: '#32CD32',
+		fontWeight: 'Bold',
+		fontSize: 18,
+ 	    height: 50,
+ 	    width: 50,
+ 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    hook: 'scale:name=scale-x,index=5',
+ 	    offsetX: -50
+ 	  },
+ 	  {
+ 	    text:'GMG',
+		fontColor: '#FFD700',
+		fontWeight: 'Bold',
+		fontSize: 18,
+ 	    height: 50,
+ 	    width: 50,
+ 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    hook: 'scale:name=scale-x,index=6',
+ 	    offsetX: -50
+ 	  },
+ 	  {
+ 	    text:'DMP',
+		fontColor: '#32CD32',
+		fontWeight: 'Bold',
+		fontSize: 18,
+ 	    height: 50,
+ 	    width: 50,
+ 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    hook: 'scale:name=scale-x,index=7',
+ 	    offsetX: -50
+ 	  },
+ 	  {
+ 	    text:'BST',
+		fontColor: '#32CD32',
+		fontWeight: 'Bold',
+		fontSize: 18,
+ 	    height: 50,
+ 	    width: 50,
+ 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    hook: 'scale:name=scale-x,index=8',
+ 	    offsetX: -50
+ 	  },
+ 	  {
+ 	    text:'ANP',
+		fontColor: '#32CD32',
+		fontWeight: 'Bold',
+		fontSize: 18,
+ 	    height: 50,
+ 	    width: 50,
+ 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    hook: 'scale:name=scale-x,index=9',
+ 	    offsetX: -50
+ 	  },
+ 	  {
+ 	    text:'AJA',
+		fontColor: '#FFD700',
+		fontWeight: 'Bold',
+		fontSize: 18,
+ 	    height: 50,
+ 	    width: 50,
+ 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    hook: 'scale:name=scale-x,index=10',
+ 	    offsetX: -50
+ 	  },
+ 	  {
+ 	    text:'AMG',
+		fontColor: '#32CD32',
+		fontWeight: 'Bold',
+		fontSize: 18,
+ 	    height: 50,
+ 	    width: 50,
+ 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    hook: 'scale:name=scale-x,index=11',
+ 	    offsetX: -50
  	  }
  	],
  	scaleX:{
  	  label:{
- 	    text: 'Agent',
+ 	    text: 'Miembro ACN',
  	    offsetX: -70
  	  },
  	  guide:{
@@ -70,7 +170,7 @@ var myConfig = {
  	    visible: false
  	  },
  	  label:{
- 	    text: 'Number of Incidents'
+ 	    text: 'Horas de capacitación'
  	  }
  	},
  	plotarea:{
@@ -78,35 +178,26 @@ var myConfig = {
  	},
 	series: [
 		{
-		  text: 'Inbound Calls',
-			values: [35,22,50,65],
+		  text: 'Junio 11',
+			values: [3.4, 66, 16, 25, 18.5, 41.7, 45.5, 60.4167, 68.9, 33.1, 46.1, 59],
 			backgroundColor:'#009688',
-			goals: [25,30,30,45],
+			goals: [40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40],
 			goal: {
 			  backgroundColor:"#00796b"
 			}
 		},
 		{
-		  text: 'Outbound Calls',
-			values: [30,30,20,15],
-			backgroundColor:'#ffc107',
-			goals: [45,50,45,30],
-			goal:{
-			  backgroundColor: '#ffa000'
-			}
-		},
-		{
-		  text: 'Call Escalations',
-			values: [10,42,12,8],
+		  text: 'Junio 29',
+			values: [55.4, 67, 19, 33.5, 20.4, 55.2, 45.5, 66.9167, 68.9, 86.1, 48.1, 59],
 			backgroundColor:'#9c27b0',
-			goals: [5,15,10,15],
+			goals: [55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55],
 			goal:{
 			  backgroundColor: '#7b1fa2'
 			}
 		}
 	]
 };
- 
+
 zingchart.render({ 
 	id: 'myChart', 
 	data: myConfig
