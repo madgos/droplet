@@ -36,7 +36,7 @@ var myConfig = {
 		fontSize: 18,
  	    height: 50,
  	    width: 50,
- 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar22.png',
+ 	    backgroundImage:'',
  	    hook: 'scale:name=scale-x,index=1',
  	    offsetX: -50
  	  },
@@ -47,7 +47,7 @@ var myConfig = {
 		fontSize: 18,
  	    height: 50,
  	    width: 50,
- 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar33.png',
+ 	    backgroundImage:'',
  	    hook: 'scale:name=scale-x,index=2',
  	    offsetX: -50
  	  },
@@ -58,7 +58,7 @@ var myConfig = {
 		fontSize: 18,
  	    height: 50,
  	    width: 50,
- 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    backgroundImage:'',
  	    hook: 'scale:name=scale-x,index=3',
  	    offsetX: -50
  	  },
@@ -69,7 +69,7 @@ var myConfig = {
 		fontSize: 18,
  	    height: 50,
  	    width: 50,
- 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    backgroundImage:'',
  	    hook: 'scale:name=scale-x,index=4',
  	    offsetX: -50
  	  },
@@ -80,7 +80,7 @@ var myConfig = {
 		fontSize: 18,
  	    height: 50,
  	    width: 50,
- 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    backgroundImage:'',
  	    hook: 'scale:name=scale-x,index=5',
  	    offsetX: -50
  	  },
@@ -91,7 +91,7 @@ var myConfig = {
 		fontSize: 18,
  	    height: 50,
  	    width: 50,
- 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    backgroundImage:'',
  	    hook: 'scale:name=scale-x,index=6',
  	    offsetX: -50
  	  },
@@ -102,7 +102,7 @@ var myConfig = {
 		fontSize: 18,
  	    height: 50,
  	    width: 50,
- 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    backgroundImage:'',
  	    hook: 'scale:name=scale-x,index=7',
  	    offsetX: -50
  	  },
@@ -113,7 +113,7 @@ var myConfig = {
 		fontSize: 18,
  	    height: 50,
  	    width: 50,
- 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    backgroundImage:'',
  	    hook: 'scale:name=scale-x,index=8',
  	    offsetX: -50
  	  },
@@ -124,7 +124,7 @@ var myConfig = {
 		fontSize: 18,
  	    height: 50,
  	    width: 50,
- 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    backgroundImage:'',
  	    hook: 'scale:name=scale-x,index=9',
  	    offsetX: -50
  	  },
@@ -135,7 +135,7 @@ var myConfig = {
 		fontSize: 18,
  	    height: 50,
  	    width: 50,
- 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    backgroundImage:'',
  	    hook: 'scale:name=scale-x,index=10',
  	    offsetX: -50
  	  },
@@ -146,7 +146,7 @@ var myConfig = {
 		fontSize: 18,
  	    height: 50,
  	    width: 50,
- 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar44.png',
+ 	    backgroundImage:'',
  	    hook: 'scale:name=scale-x,index=11',
  	    offsetX: -50
  	  }
