@@ -3,15 +3,16 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Highcharts Example</title>
+		<title>CMT Metrics</title>
 
 		<style type="text/css">
+
 #container1 {
     max-width: 800px;
     height: 115px;
     margin: 1em auto;
 }
-#container2, #container3 {
+#container2, #container3, #container4, #container5, #container6, #container7, #container8, #container9, #container10, #container11, #container12 {
     max-width: 800px;
     height: 85px;
     margin: 1em auto;
@@ -28,6 +29,19 @@
 <div id="container1"></div>
 <div id="container2"></div>
 <div id="container3"></div>
+<div id="container4"></div>
+<div id="container5"></div>
+<div id="container6"></div>
+<div id="container7"></div>
+<div id="container8"></div>
+<div id="container9"></div>
+<div id="container10"></div>
+<div id="container11"></div>
+<div id="container12"></div>
+
+<center><form action="index.html">
+		<input type="submit" value="Versión 1" />
+</form></center>
 
 
 		<script type="text/javascript">
@@ -50,7 +64,7 @@ Highcharts.setOptions({
         series: {
             pointPadding: 0.25,
             borderWidth: 0,
-            color: '#ttt',
+            color: '#000000',
             targetOptions: {
                 width: '200%'
             }
@@ -64,114 +78,385 @@ Highcharts.setOptions({
     }
 });
 
+
 Highcharts.chart('container1', {
     chart: {
         marginTop: 40
     },
     title: {
-        text: '2017 YTD'
+        text: 'CMT Training Hours'
     },
     xAxis: {
-        categories: ['<span class="hc-cat-title">Revenue</span><br/>U.S. $ (1,000s)']
+        categories: ['<span class="hc-cat-title">AMG - 59 hrs</span><br/>Hasta 29 de junio']
     },
     yAxis: {
         plotBands: [{
             from: 0,
-            to: 150,
-            color: '#666'
+            to: 40,
+            color: '#009900'
         }, {
-            from: 150,
-            to: 225,
-            color: '#999'
+            from: 40,
+            to: 55,
+            color: '#1aff1a'
         }, {
-            from: 225,
+            from: 55,
             to: 9e9,
-            color: '#bbb'
+            color: '#e6ffe6'
         }],
         title: null
     },
     series: [{
         data: [{
-            y: 275,
-            target: 250
+            y: 59,
+            target: 55
         }]
     }],
     tooltip: {
-        pointFormat: '<b>{point.y}</b> (with target at {point.target})'
+        pointFormat: '<b>{point.y}</b> (con objetivo de {point.target})'
     }
 });
 
 Highcharts.chart('container2', {
     xAxis: {
-        categories: ['<span class="hc-cat-title">Profit</span><br/>%']
+        categories: ['<span class="hc-cat-title">AJA - 48.1 hrs</span><br/>Hasta 29 de junio']
     },
     yAxis: {
         plotBands: [{
             from: 0,
-            to: 20,
-            color: '#666'
+            to: 40,
+            color: '#b38600'
         }, {
-            from: 20,
-            to: 25,
-            color: '#999'
+            from: 40,
+            to: 55,
+            color: '#ffc61a'
         }, {
-            from: 25,
-            to: 100,
-            color: '#bbb'
+            from: 55,
+            to: 9e9,
+            color: '#ffecb3'
         }],
-        labels: {
-            format: '{value}%'
-        },
         title: null
     },
     series: [{
         data: [{
-            y: 22,
-            target: 27
+            y: 48.1,
+            target: 55
         }]
     }],
     tooltip: {
-        pointFormat: '<b>{point.y}</b> (with target at {point.target})'
+        pointFormat: '<b>{point.y}</b> (con objetivo de {point.target})'
     }
 });
-
 
 Highcharts.chart('container3', {
     xAxis: {
-        categories: ['<span class="hc-cat-title">New Customers</span><br/>Count']
+        categories: ['<span class="hc-cat-title">ANP - 86.1 hrs</span><br/>Hasta 29 de junio']
     },
     yAxis: {
         plotBands: [{
             from: 0,
-            to: 1400,
-            color: '#666'
+            to: 40,
+            color: '#009900'
         }, {
-            from: 1400,
-            to: 2000,
-            color: '#999'
+            from: 40,
+            to: 55,
+            color: '#1aff1a'
         }, {
-            from: 2000,
+            from: 55,
             to: 9e9,
-            color: '#bbb'
+            color: '#e6ffe6'
         }],
-        labels: {
-            format: '{value}'
-        },
         title: null
     },
     series: [{
         data: [{
-            y: 1650,
-            target: 2100
+            y: 86.1,
+            target: 55
         }]
     }],
     tooltip: {
-        pointFormat: '<b>{point.y}</b> (with target at {point.target})'
-    },
-    credits: {
-        enabled: true
+        pointFormat: '<b>{point.y}</b> (con objetivo de {point.target})'
     }
 });
+
+Highcharts.chart('container4', {
+    xAxis: {
+        categories: ['<span class="hc-cat-title">BST - 68.9 hrs</span><br/>Hasta 29 de junio']
+    },
+    yAxis: {
+        plotBands: [{
+            from: 0,
+            to: 40,
+            color: '#009900'
+        }, {
+            from: 40,
+            to: 55,
+            color: '#1aff1a'
+        }, {
+            from: 55,
+            to: 9e9,
+            color: '#e6ffe6'
+        }],
+        title: null
+    },
+    series: [{
+        data: [{
+            y: 68.9,
+            target: 55
+        }]
+    }],
+    tooltip: {
+        pointFormat: '<b>{point.y}</b> (con objetivo de {point.target})'
+    }
+});
+		
+Highcharts.chart('container5', {
+    xAxis: {
+        categories: ['<span class="hc-cat-title">DMP - 66.9 hrs</span><br/>Hasta 29 de junio']
+    },
+    yAxis: {
+        plotBands: [{
+            from: 0,
+            to: 40,
+            color: '#009900'
+        }, {
+            from: 40,
+            to: 55,
+            color: '#1aff1a'
+        }, {
+            from: 55,
+            to: 9e9,
+            color: '#e6ffe6'
+        }],
+        title: null
+    },
+    series: [{
+        data: [{
+            y: 66.9,
+            target: 55
+        }]
+    }],
+    tooltip: {
+        pointFormat: '<b>{point.y}</b> (con objetivo de {point.target})'
+    }
+});
+	
+Highcharts.chart('container6', {
+    xAxis: {
+        categories: ['<span class="hc-cat-title">GMG - 45.5 hrs</span><br/>Hasta 29 de junio']
+    },
+    yAxis: {
+        plotBands: [{
+            from: 0,
+            to: 40,
+            color: '#b38600'
+        }, {
+            from: 40,
+            to: 55,
+            color: '#ffc61a'
+        }, {
+            from: 55,
+            to: 9e9,
+            color: '#ffecb3'
+        }],
+        title: null
+    },
+    series: [{
+        data: [{
+            y: 45.5,
+            target: 55
+        }]
+    }],
+    tooltip: {
+        pointFormat: '<b>{point.y}</b> (con objetivo de {point.target})'
+    }
+});
+	
+Highcharts.chart('container7', {
+    xAxis: {
+        categories: ['<span class="hc-cat-title">GAP - 55.2 hrs</span><br/>Hasta 29 de junio']
+    },
+    yAxis: {
+        plotBands: [{
+            from: 0,
+            to: 40,
+            color: '#009900'
+        }, {
+            from: 40,
+            to: 55,
+            color: '#1aff1a'
+        }, {
+            from: 55,
+            to: 9e9,
+            color: '#e6ffe6'
+        }],
+        title: null
+    },
+    series: [{
+        data: [{
+            y: 55.2,
+            target: 55
+        }]
+    }],
+    tooltip: {
+        pointFormat: '<b>{point.y}</b> (con objetivo de {point.target})'
+    }
+});
+
+Highcharts.chart('container8', {
+    xAxis: {
+        categories: ['<span class="hc-cat-title">JMS - 20.4 hrs</span><br/>Hasta 29 de junio']
+    },
+    yAxis: {
+        plotBands: [{
+            from: 0,
+            to: 40,
+            color: '#b30000'
+        }, {
+            from: 40,
+            to: 55,
+            color: '#ff1a1a'
+        }, {
+            from: 55,
+            to: 9e9,
+            color: '#ffcccc'
+        }],
+        title: null
+    },
+    series: [{
+        data: [{
+            y: 20.4,
+            target: 55
+        }]
+    }],
+    tooltip: {
+        pointFormat: '<b>{point.y}</b> (con objetivo de {point.target})'
+    }
+});
+
+Highcharts.chart('container9', {
+    xAxis: {
+        categories: ['<span class="hc-cat-title">JZR - 33.5 hrs</span><br/>Hasta 29 de junio']
+    },
+    yAxis: {
+        plotBands: [{
+            from: 0,
+            to: 40,
+            color: '#b38600'
+        }, {
+            from: 40,
+            to: 55,
+            color: '#ffc61a'
+        }, {
+            from: 55,
+            to: 9e9,
+            color: '#ffecb3'
+        }],
+        title: null
+    },
+    series: [{
+        data: [{
+            y: 33.5,
+            target: 55
+        }]
+    }],
+    tooltip: {
+        pointFormat: '<b>{point.y}</b> (con objetivo de {point.target})'
+    }
+});
+	
+Highcharts.chart('container10', {
+    xAxis: {
+        categories: ['<span class="hc-cat-title">JAD - 19 hrs</span><br/>Hasta 29 de junio']
+    },
+    yAxis: {
+        plotBands: [{
+            from: 0,
+            to: 40,
+            color: '#b30000'
+        }, {
+            from: 40,
+            to: 55,
+            color: '#ff1a1a'
+        }, {
+            from: 55,
+            to: 9e9,
+            color: '#ffcccc'
+        }],
+        title: null
+    },
+    series: [{
+        data: [{
+            y: 19,
+            target: 55
+        }]
+    }],
+    tooltip: {
+        pointFormat: '<b>{point.y}</b> (con objetivo de {point.target})'
+    }
+});
+		
+Highcharts.chart('container11', {
+    xAxis: {
+        categories: ['<span class="hc-cat-title">MGO - 67 hrs</span><br/>Hasta 29 de junio']
+    },
+    yAxis: {
+        plotBands: [{
+            from: 0,
+            to: 40,
+            color: '#009900'
+        }, {
+            from: 40,
+            to: 55,
+            color: '#1aff1a'
+        }, {
+            from: 55,
+            to: 9e9,
+            color: '#e6ffe6'
+        }],
+        title: null
+    },
+    series: [{
+        data: [{
+            y: 67,
+            target: 55
+        }]
+    }],
+    tooltip: {
+        pointFormat: '<b>{point.y}</b> (con objetivo de {point.target})'
+    }
+});
+
+Highcharts.chart('container12', {
+    xAxis: {
+        categories: ['<span class="hc-cat-title">RBC - 55.4 hrs</span><br/>Hasta 29 de junio']
+    },
+    yAxis: {
+        plotBands: [{
+            from: 0,
+            to: 40,
+            color: '#009900'
+        }, {
+            from: 40,
+            to: 55,
+            color: '#1aff1a'
+        }, {
+            from: 55,
+            to: 9e9,
+            color: '#e6ffe6'
+        }],
+        title: null
+    },
+    series: [{
+        data: [{
+            y: 55.4,
+            target: 55
+        }]
+    }],
+    tooltip: {
+        pointFormat: '<b>{point.y}</b> (con objetivo de {point.target})'
+    }
+});
+		
 		</script>
 	</body>
 </html>
