@@ -25,7 +25,7 @@ var myConfig = {
 		fontSize: 18,
  	    height: 50,
  	    width: 50,
- 	    backgroundImage:'//demos.zingchart.com/view/6FW4FFOV/avitar11.png',
+ 	    backgroundImage:'',
  	    hook: 'scale:name=scale-x,index=0',
  	    offsetX: -50
  	  },
